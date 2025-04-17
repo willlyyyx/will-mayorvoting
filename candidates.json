@@ -1,0 +1,14 @@
+[
+    {
+      "name": "John Doe",
+      "image": "john_doe.png"
+    },
+    {
+      "name": "Jane Smith",
+      "image": "jane_smith.png"
+    },
+    {
+        "name": "John Pork",
+        "image": "john_pork.png"
+      }
+  ]
