@@ -83,6 +83,13 @@ end)
 
 RegisterNUICallback('vote', function(data, cb)
     TriggerServerEvent('mayorvote:submitVote', data.name)
+
+    exports.ox_lib:notify({
+        title = 'Australian Government',
+        description =  'You voted for ' .. data.name .. '!',
+        type = 'success'
+    })
+
     SetNuiFocus(false, false)
     cb({})
 end)
