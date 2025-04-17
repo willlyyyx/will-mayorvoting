@@ -1,6 +1,6 @@
-# Optic Networks Mayor Voting UI
+# Mayor Voting UI
 
-A sleek and customizable in-game voting interface for FiveM, designed for immersive mayor elections. Built with `ox_lib`, `ox_target`, `oxmysql` and `QBX/ESX` support, and a custom HTML/CSS UI styled for Optic Networks.
+A sleek and customizable in-game voting interface for FiveM, designed for immersive mayor elections. Built with `ox_lib`, `ox_target`, `oxmysql` and `QBX/ESX` support, and a custom HTML/CSS UI.
 
 ---
 
@@ -32,7 +32,7 @@ Candidates are stored in a JSON file (`candidates.json`) and synced dynamically 
 
 ### 4. **UI and Carousel**
 - The voting UI is built with HTML, CSS, and JS.
-- Candidates are shown in a card layout, styled with Poppins font and Optic Networks branding.
+- Candidates are shown in a card layout, styled with Poppins font and unique branding.
 - If there are more than 3 candidates, arrows appear allowing the player to scroll through them in a carousel-like fashion.
 - Voting happens by clicking the candidate card. Pressing `Esc` or clicking `X` closes the interface.
 
@@ -106,8 +106,7 @@ This table ensures each player can vote only once and stores the vote timestamp 
 
 ## Credits
 
-UI design & scripting by **willlyyy**  
-Project styling inspired by **Optic Networks** branding  
+UI design & scripting by **willlyyy**   
 Vote logic, NUI bridge, and Discord logging fully integrated
 
 ---
