@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Framework = 'qbx' -- can use esx or qbx for functionality 
+Config.Framework = 'esx' -- can use esx or qbx for functionality 
 
 Config.TicketMachine = {
     model = "prop_park_ticket_01", -- can change to prop that is more suitable 
