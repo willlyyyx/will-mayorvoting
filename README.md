@@ -1,4 +1,4 @@
-# Mayor Voting UI
+# Custom ESX/QB Core Mayor Voting Script
 
 A sleek and customizable in-game voting interface for FiveM, designed for immersive mayor elections. Built with `ox_lib`, `ox_target`, `oxmysql` and `QBX/ESX` support, and a custom HTML/CSS UI.
 
