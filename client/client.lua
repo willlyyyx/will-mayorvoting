@@ -63,7 +63,7 @@ end)
 
 RegisterNetEvent('mayorvote:hasVotedResult', function(hasVoted)
     if hasVoted then
-        exports['ox_lib']:notify({
+        lib.notify({
             title = 'Australian Government',
             description = 'Oh no! You have already voted for a Mayor!',
             type = 'error',
@@ -84,7 +84,7 @@ end)
 RegisterNUICallback('vote', function(data, cb)
     TriggerServerEvent('mayorvote:submitVote', data.name)
 
-    exports.ox_lib:notify({
+    lib.notify({
         title = 'Australian Government',
         description =  'You voted for ' .. data.name .. '!',
         type = 'success'
