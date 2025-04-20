@@ -5,7 +5,10 @@ author 'willlyyy'
 description 'Mayor Voting System'
 version '1.0.0'
 
-shared_script 'config.lua'
+shared_scripts {
+    'config.lua',
+    '@ox_lib/init.lua'
+} 
 
 client_scripts {
     'client/client.lua'
