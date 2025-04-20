@@ -28,7 +28,7 @@ local function logVoteWebhook(source, charName, candidateName, count)
     end
 
     local embed = {{
-        title = "🚨 Optic Networks | Election Vote 🚨",
+        title = "🚨 Election Vote 🚨",
         color = 1142005,
         fields = {
             { name = "Character Name", value = charName, inline = true },
@@ -38,7 +38,7 @@ local function logVoteWebhook(source, charName, candidateName, count)
             { name = "Discord ID", value = discordId, inline = false },
         },
         footer = {
-            text = "Optic Networks | Election Log • " .. getAustraliaDateTime()
+            text = "Election Log • " .. getAustraliaDateTime()
         }        
     }}
 
